@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: gray; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 400px){
+    .box{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
+.top{
+    width: 100%;
+    height: 33%;
+    display: flex;
+}
+.top > .box1{
+    /* display: flex; */
+    flex: 0 30%;
+    height: 100%;
+    background-color: skyblue;
+}
+@media screen and (max-width: 400px){
+    .top > .box1{
+        /* display: flex; */
+        flex: 0 30%;
+        height: 100%;
+        background-color: red;
+    }
+}
+.top > .box2{
+    display: flex;
+    flex: 0 40%;
+    height: 100%;
+    background-color: blue;
+}
+.top > .box3{
+    flex: 0 30%;
+    height: 100%;
+    background-color: orange;
+}
+/*  center */
+.center{
+    width: 100%;
+    height: 33%;
+    display: flex;
+}
+.center > .box4{
+    display: flex;
+    flex: 0 35%;
+    height: 100%;
+    background-color:hotpink;
+}
+.center > .box5{
+    display: flex;
+    flex: 0 45%;
+    height: 100%;
+    background-color: green;
+}
+.center > .box6{
+    flex: 0 20%;
+    height: 100%;
+    background-color: indigo;
+}
+
+/* Bottom */
+.bottom{
+    width: 100%;
+    height: 33.95%;
+    display: flex;
+    background-color: salmon;
+}
+.bottom > .box7{
+    flex: 0 15%;
+    height: 100%;
+    background-color: purple;
+}
+.bottom > .box8{
+    flex: 0 25%;
+    height: 100%;
+    background-color: red;
+}
+.bottom > .box9{
+    flex: 0 25%;
+    height: 100%;
+    background-color: firebrick;
+}
+.bottom > .box10{
+    flex: 0 35%;
+    height: 100%;
+    background-color: navy;
+}
